@@ -28,6 +28,7 @@
               <Route exact path="/" component={About}/>
               <Route exact path="/contact" component={Contact}/>
               <Route exact path="/portfolio" component={Portfolio}/>
+              <Route path="" component={About}/>
             </Switch>  
           </Wrapper>
           <Footer data-component="Footer"/>
