@@ -9,6 +9,7 @@
   import About from "./pages/About";
   import Contact from "./pages/Contact";
   import Portfolio from "./pages/Portfolio";
+  import Footer from "./components/Footer";
 
 
 /* -------------------------------------------------------------------------- */
@@ -29,6 +30,7 @@
               <Route exact path="/portfolio" component={Portfolio}/>
             </Switch>  
           </Wrapper>
+          <Footer data-component="Footer"/>
         </div>
       </Router>
     );

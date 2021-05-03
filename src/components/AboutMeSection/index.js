@@ -4,7 +4,7 @@
 
     import React from "react";
     import aboutMeImage from "./aboutMeImage.jpg";
-    import "./aboutmesection.css";
+    import "./index.css";
 
 /* -------------------------------------------------------------------------- */
 /*                              Define Component                              */

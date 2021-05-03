@@ -3,8 +3,7 @@
 /* -------------------------------------------------------------------------- */
 
     import React from "react";
-    import "./navbar.css";
-    // import { Link } from "react-router-dom";
+    import "./index.css";
 
 /* -------------------------------------------------------------------------- */
 /*                              Define Component                              */
@@ -12,7 +11,7 @@
 
     function Navbar() {
         return (
-            <nav className="navbar myNavBg navbar-expand-lg navbar-dark p-3 mb-3">
+            <nav className="navbar myNavBg navbar-expand-lg navbar-dark p-3 mb-3 border-3 border-bottom border-secondary">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="/">Ryan Johnson</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
