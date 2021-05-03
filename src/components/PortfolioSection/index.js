@@ -1,14 +1,18 @@
 /* -------------------------------------------------------------------------- */
 /*                             Import Dependencies                            */
 /* -------------------------------------------------------------------------- */
-
-    import React, {useState} from "react";
+    // Image Imports
     import city411 from "./images/city411.jpg";
     import teamProfileGenerator from"./images/teamProfileGenerator.PNG";
     import FamilyManager from "./images/FamilyManager.PNG";
     import weatherly2 from "./images/weatherly2.PNG";
     import techBlog from "./images/techBlog.PNG";
-    import ecommBackend from "./images/ecommBackend.PNG";    
+    import ecommBackend from "./images/ecommBackend.PNG"; 
+
+    // Components
+    import ProjectCard from "../ProjectCard";   
+
+    // CSS
     import "./index.css";
 
 
@@ -32,60 +36,47 @@
                     </p>
                 </header>
 
-                
-
                 <div className= "row pt-3 px-5">
-                    <div className="col-md-4 mb-2 mx-auto d-flex justify-content-center">
-                        <div className="card card-size text-center fw-bold border border-secondary">
-                            <img src={city411} className="card-img-top" alt="city411"/>
-                            <div className="card-body d-flex align-items-center justify-content-center">
-                                <a className="card-text a-theme" href="https://github.com/dassoumik/city411">City 411</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-4 mb-2 mx-auto d-flex justify-content-center">
-                        <div className="card card-size text-center fw-bold border border-secondary">
-                            <img src={teamProfileGenerator} className="card-img-top" alt="city411"/>
-                            <div className="card-body d-flex align-items-center justify-content-center">
-                                <a className="card-text a-theme" href="https://github.com/wryanj/gt_fsf_hw10_team_profile_generator">Team Profile Generator</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-4 mb-2 mx-auto d-flex justify-content-center">
-                        <div className="card card-size text-center fw-bold border border-secondary">
-                            <img src={FamilyManager} className="card-img-top" alt="city411"/>
-                            <div className="card-body d-flex align-items-center justify-content-center">
-                                <a className="card-text a-theme" href="https://github.com/tuanle99/Project-2">Family Manager</a>
-                            </div>
-                        </div>
-                    </div>
+                   <ProjectCard
+                        src={city411}
+                        alt="City 411"
+                        href="https://github.com/dassoumik/city411"
+                        title="City 411"
+                    />
+                     <ProjectCard
+                        src={teamProfileGenerator}
+                        alt="Team Profile Generator"
+                        href="https://github.com/wryanj/gt_fsf_hw10_team_profile_generator"
+                        title="Team Profile Generator"
+                    />
+                   <ProjectCard
+                        src={FamilyManager}
+                        alt="Family Manager"
+                        href="https://github.com/tuanle99/Project-2"
+                        title="Family Manager"
+                    />  
                 </div>
 
                 <div className= "row pt-3 px-5">
-                    <div className="col-md-4 mb-2 mx-auto d-flex justify-content-center">
-                        <div className="card card-size text-center fw-bold border border-secondary">
-                            <img src={weatherly2} className="card-img-top" alt="city411"/>
-                            <div className="card-body d-flex align-items-center justify-content-center">
-                                <a className="card-text a-theme" href="https://github.com/dassoumik/city411">Weatherly</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-4 mb-2 mx-auto d-flex justify-content-center">
-                        <div className="card card-size text-center fw-bold border border-secondary">
-                            <img src={techBlog} className="card-img-top" alt="city411"/>
-                            <div className="card-body d-flex align-items-center justify-content-center">
-                                <a className="card-text a-theme" href="https://github.com/wryanj/gt_fsf_hw10_team_profile_generator">Tech Blog</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-4 mb-2 mx-auto d-flex justify-content-center">
-                        <div className="card card-size text-center fw-bold border border-secondary">
-                            <img src={ecommBackend} className="card-img-top" alt="city411"/>
-                            <div className="card-body d-flex align-items-center justify-content-center">
-                                <a className="card-text a-theme" href="https://github.com/tuanle99/Project-2">EComm Backend</a>
-                            </div>
-                        </div>
-                    </div>
+                    <ProjectCard
+                        src={weatherly2}
+                        alt="Weatherly"
+                        href="https://github.com/wryanj/gt_fsf_hw6_weather_dashboard"
+                        title="Weatherly"
+                    />
+                     <ProjectCard
+                        src={techBlog}
+                        alt="TechBlog"
+                        href="https://github.com/wryanj/gt_fsf_hw14_MVC_TechBlog"
+                        title="Team Profile Generator"
+                    />
+                   <ProjectCard
+                        src={ecommBackend}
+                        alt="EComm Backend"
+                        href="https://github.com/tuanle99/Project-2"
+                        title="EComm Backend"
+                    />  
+                  
                 </div>
 
                
