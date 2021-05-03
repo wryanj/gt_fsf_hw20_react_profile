@@ -3,6 +3,7 @@
 /* -------------------------------------------------------------------------- */
 
     import React from "react";
+    import { Link, useLocation } from "react-router-dom";
     import "./index.css";
 
 /* -------------------------------------------------------------------------- */
@@ -10,6 +11,9 @@
 /* -------------------------------------------------------------------------- */
 
     function Navbar() {
+
+        const location=useLocation();
+
         return (
             <nav className="navbar myNavBg navbar-expand-lg navbar-dark p-3 mb-3 border-3 border-bottom border-secondary">
                 <div className="container-fluid">
@@ -20,13 +24,19 @@
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="/">About</a>
+                                <Link to="/" className={location.pathname==="/" ? "nav-link active" : "nav-link"}>
+                                    Home
+                                </Link>
                             </li>
                             <li className="nav-item">
-                            <a className="nav-link" href="/portfolio">Portfolio</a>
+                                <Link to="/portfolio" className={location.pathname==="/portfolio" ? "nav-link active" : "nav-link"}>
+                                    Portfolio
+                                </Link>
                             </li>
                             <li className="nav-item">
-                            <a className="nav-link" href="/contact">Contact</a>
+                                <Link to="/contact" className={location.pathname==="/contact" ? "nav-link active" : "nav-link"}>
+                                    Contact
+                                </Link>
                             </li>
                         </ul>
                     </div>
