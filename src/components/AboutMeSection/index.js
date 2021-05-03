@@ -3,10 +3,8 @@
 /* -------------------------------------------------------------------------- */
 
     import React from "react";
+    import aboutMeImage from "./aboutMeImage.jpg";
     import "./aboutmesection.css";
-   
-    
-    // import { Link } from "react-router-dom";
 
 /* -------------------------------------------------------------------------- */
 /*                              Define Component                              */
@@ -22,7 +20,7 @@
                 </header>
                 <div className= "row pt-3">
                     <div className="col-md-12 fs-5">
-                        <img src="" class="img-fluid" alt="Me and My Family"/>
+                        <img src={aboutMeImage} class="img-fluid float-start me-3" alt="Me and My Family"/>
                         <p>
                             My name is Ryan Johnson, and I work as a product manager for AGCO corporation. My company is a global manufacturer of agricultural equipment like tractors, combines, sprayers and other machines 
                             and implements. I work specifically with module technology products fit to our platforms globally. The products I support are in the area of task and field data management, and include 

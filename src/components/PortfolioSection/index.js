@@ -12,7 +12,7 @@
 
         return (
 
-            <div className="col-md-12 text-white border p-3">
+            <div className="col-md-12 text-white border border-secondary p-3">
 
                 <header className="row">
                     <div className="col-md-12">
