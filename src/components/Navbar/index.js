@@ -24,7 +24,7 @@
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <Link to="/" className={location.pathname==="/" || location.pathname===" " ? "nav-link active" : "nav-link"}>
+                                <Link to="/" className={location.pathname==="/" || location.pathname==="" ? "nav-link active" : "nav-link"}>
                                     Home
                                 </Link>
                             </li>

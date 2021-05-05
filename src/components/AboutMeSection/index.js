@@ -34,7 +34,8 @@
                     <div className="col-md-12 fs-5">
                         <p>
                             From a personal standpoint, I am married to my wife Natalie. We have a big dog whom we call Mr. Coleman. I enjoy outdoor activities such as hunting, fishing, and riding motorcycles. 
-                            I love to cook, but only when its on a big green egg. I am a graduate from the University of Georgia, so another one of my hobbies is "waiting for next year" (football reference).               
+                            I love to cook, but only when its on a big green egg. I am a graduate from the University of Georgia, so another one of my hobbies is "waiting for next year" (Because that
+                            is for sure, the year we will win it all).               
                         </p>
                     </div>
                 </div>

@@ -76,12 +76,8 @@
                         href="https://github.com/tuanle99/Project-2"
                         title="EComm Backend"
                     />  
-                  
                 </div>
-
-               
-
-               
+                
             </div>
 
         );
