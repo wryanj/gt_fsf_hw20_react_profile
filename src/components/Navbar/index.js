@@ -23,17 +23,17 @@
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
-                            <li className="nav-item">
+                            <li className="nav-item" href="/">
                                 <Link to="/" className={location.pathname==="/" || location.pathname==="" ? "nav-link active" : "nav-link"}>
                                     Home
                                 </Link>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item" href="/portfolio">
                                 <Link to="/portfolio" className={location.pathname==="/portfolio" ? "nav-link active" : "nav-link"}>
                                     Portfolio
                                 </Link>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item" href="/contact">
                                 <Link to="/contact" className={location.pathname==="/contact" ? "nav-link active" : "nav-link"}>
                                     Contact
                                 </Link>
