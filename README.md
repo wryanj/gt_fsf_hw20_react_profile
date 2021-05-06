@@ -1,10 +1,9 @@
 ## Table of Contents
 1. [Description](#Description)
 3. [Usage](#Usage)
-4. [Installation](#Installation)
-5. [Licenses](#Licenses)
-6. [Questions](#Questions)
-7. [Credits](#Credits)
+4. [Licenses](#Licenses)
+5. [Questions](#Questions)
+6. [Credits](#Credits)
 
 ## Description
 **Deployed App (Git Pages)**      
@@ -23,4 +22,4 @@ This is designed just to provide a little information about myself and my work i
 Email me at ryanjohnson9685@gmail.com for more information.
 
 ## Credits
-For this assignment I utilized class notes and recordings, as well as some MDM and W3 schools resources. I also utilized the docs on react, as well as react tables. 
+For this assignment I utilized class notes and recordings, as well as some MDM and W3 schools resources. I also utilized the docs on react and bootstrap 5.
